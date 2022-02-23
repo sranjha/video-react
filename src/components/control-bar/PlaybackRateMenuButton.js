@@ -15,8 +15,8 @@ const defaultProps = {
 };
 
 class PlaybackRateMenuButton extends Component {
-  constructor(props, context) {
-    super(props, context);
+  constructor(props) {
+    super(props);
 
     this.handleSelectItem = this.handleSelectItem.bind(this);
   }

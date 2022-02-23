@@ -19,7 +19,8 @@
     "publish-release": "npm test && sh ./scripts/publish",
     "lint": "eslint src",
     "format-all": "prettier --config .prettierrc.js --write \"src/**/*.{js,json,md}\" \"docs/**/*.{js,json,md}\" \"*.{js,json,md}\"",
-    "format-one": "prettier --config .prettierrc.js --write"
+    "format-one": "prettier --config .prettierrc.js --write",
+    "prepare": "npm run build"
   },
   "husky": {
     "hooks": {
@@ -42,6 +43,7 @@
     "CHANGELOG.md",
     "lib",
     "dist",
+    "src",
     "styles",
     "tonic-example.js"
   ],
